@@ -1,0 +1,61 @@
+{
+  "gate": "GREEN",
+  "board": "super-qwiic",
+  "checks": [
+    {
+      "check": "critical_nets",
+      "pass": true,
+      "detail": "GND/USB/RF868/RF433/ANTS/RFSEL/SCK pr\u00e9sents"
+    },
+    {
+      "check": "ground_planes",
+      "pass": true,
+      "detail": "zones GND sur F.Cu, B.Cu et plan In1.Cu"
+    },
+    {
+      "check": "in1_pure_gnd",
+      "pass": true,
+      "detail": "In1.Cu = plan GND pur (intrus: set())"
+    },
+    {
+      "check": "rf_top_only",
+      "pass": true,
+      "detail": "RF868/RF433/ANTS/ANT uniquement F.Cu, sans via"
+    },
+    {
+      "check": "as179_rfsel",
+      "pass": true,
+      "detail": "AS179 U6 + s\u00e9rie R6/R7 + pull R8(GND)/R9(+3V3) pr\u00e9sents"
+    },
+    {
+      "check": "rf_common_short",
+      "pass": true,
+      "detail": "J3->C11 8.0mm, C11->U6 1.7mm"
+    },
+    {
+      "check": "usb_esd_proximity",
+      "pass": true,
+      "detail": "USBLC6 \u00e0 8.51 mm (limite FS-USB 10 mm)"
+    },
+    {
+      "check": "vbus_tvs_proximity",
+      "pass": true,
+      "detail": "TVS VBUS \u00e0 2.52 mm"
+    },
+    {
+      "check": "ground_stitching",
+      "pass": true,
+      "detail": "67 vias GND, plans F/In1/B continus"
+    },
+    {
+      "check": "fast_via_return",
+      "pass": true,
+      "detail": "vias sans retour GND proche: []"
+    },
+    {
+      "check": "wifi_keepout",
+      "pass": true,
+      "detail": "intrus keepout antenne: []"
+    }
+  ]
+}

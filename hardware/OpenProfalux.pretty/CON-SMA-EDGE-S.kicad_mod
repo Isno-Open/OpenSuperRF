@@ -1,0 +1,52 @@
+(footprint "CON-SMA-EDGE-S"
+	(version 20241229)
+	(generator "isno-gen")
+	(layer "F.Cu")
+	(descr "RF Solutions CON-SMA-EDGE-S edge-mount SMA jack (C5356059), body 6.35x6.35mm, centre pin d0.76, PCB 1.2-1.6mm. Land from DS-SMA-EDGE-6 datasheet. Board edge along X at Y=0; body off-board at -Y; pads reach onto the board at +Y. Signal=pad1, shield=pad2 (F.Cu + B.Cu).")
+	(property "Reference" "REF**"
+		(at 0 -7.6 0)
+		(layer "F.SilkS")
+		(effects (font (size 1 1) (thickness 0.15))))
+	(property "Value" "CON-SMA-EDGE-S"
+		(at 0 4.4 0)
+		(layer "F.Fab")
+		(effects (font (size 1 1) (thickness 0.15))))
+	(fp_line (start -3.18 0) (end -3.18 -6.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -3.18 -6.5) (end 3.18 -6.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_line (start 3.18 -6.5) (end 3.18 0) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -3.5 3.5) (end 3.5 3.5) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(fp_line (start 3.5 3.5) (end 3.5 -6.8) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(fp_line (start 3.5 -6.8) (end -3.5 -6.8) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(fp_line (start -3.5 -6.8) (end -3.5 3.5) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(pad "1" smd rect
+		(at 0 1.5)
+		(size 1.6 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "11111111-0000-0000-0000-000000000001"))
+	(pad "2" smd rect
+		(at -2.6 1.5)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "22222222-0000-0000-0000-000000000002"))
+	(pad "2" smd rect
+		(at 2.6 1.5)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "22222222-0000-0000-0000-000000000003"))
+	(pad "2" smd rect
+		(at -2.6 1.5)
+		(size 1.4 3)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "22222222-0000-0000-0000-000000000004"))
+	(pad "2" smd rect
+		(at 2.6 1.5)
+		(size 1.4 3)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "22222222-0000-0000-0000-000000000005"))
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/OpenProfalux.pretty/CON-SMA-EDGE-S.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 0))
+	)
+)

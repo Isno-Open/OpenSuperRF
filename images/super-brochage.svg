@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 560" font-family="'IBM Plex Sans','Segoe UI',sans-serif">
+<rect width="1040" height="560" fill="#0f1720"/>
+<text x="20" y="34" fill="#e7edf5" font-size="18" font-weight="700">ISNO Super, brochage des connecteurs, carte vue de dessus</text>
+<text x="20" y="54" fill="#8fa3b8" font-size="12">Positions et réseaux relevés dans le fichier de fabrication EVT, numéros de GPIO depuis la déclaration de carte du launcher</text>
+<rect x="40.0" y="100.0" width="471.09999999999997" height="386.19" rx="8" fill="#1e6b47" stroke="#2f9c68" stroke-width="2"/>
+<circle cx="61.7" cy="119.6" r="11.200000000000001" fill="#0f1720" stroke="#2f9c68"/>
+<circle cx="490.1" cy="119.6" r="11.200000000000001" fill="#0f1720" stroke="#2f9c68"/>
+<circle cx="61.7" cy="466.59000000000003" r="11.200000000000001" fill="#0f1720" stroke="#2f9c68"/>
+<circle cx="490.1" cy="466.59000000000003" r="11.200000000000001" fill="#0f1720" stroke="#2f9c68"/>
+<rect x="49.8" y="203.95" width="147.70000000000002" height="112.0" rx="3" fill="#11151b" stroke="#333c46"/>
+<text x="123.65" y="257.95" text-anchor="middle" fill="#9fb0c2" font-size="10" font-weight="600">ESP32-S3</text>
+<text x="123.65" y="270.95" text-anchor="middle" fill="#6f8296" font-size="9">MINI-1-N8</text>
+<rect x="205.89999999999998" y="243.85000000000002" width="77.0" height="77.0" rx="3" fill="#11151b" stroke="#333c46"/>
+<text x="244.39999999999998" y="280.35" text-anchor="middle" fill="#9fb0c2" font-size="10" font-weight="600">CC1101</text>
+<text x="244.39999999999998" y="293.35" text-anchor="middle" fill="#6f8296" font-size="9">433 MHz</text>
+<rect x="294.8" y="243.85000000000002" width="77.0" height="77.0" rx="3" fill="#11151b" stroke="#333c46"/>
+<text x="333.3" y="280.35" text-anchor="middle" fill="#9fb0c2" font-size="10" font-weight="600">CC1101</text>
+<text x="333.3" y="293.35" text-anchor="middle" fill="#6f8296" font-size="9">868 MHz</text>
+<rect x="217.27499999999998" y="423.4" width="74.48" height="65.94000000000001" rx="3" fill="#11151b" stroke="#333c46"/>
+<text x="254.515" y="460.37" text-anchor="middle" fill="#9fb0c2" font-size="10" font-weight="600">USB-C</text>
+<rect x="306.35" y="454.9" width="42.69999999999996" height="24.5" rx="3" fill="#11151b" stroke="#333c46"/>
+<text x="327.7" y="471.15" text-anchor="middle" fill="#9fb0c2" font-size="10" font-weight="600">BOOT</text>
+<rect x="356.75000000000006" y="454.9" width="42.69999999999996" height="24.5" rx="3" fill="#11151b" stroke="#333c46"/>
+<text x="378.1" y="471.15" text-anchor="middle" fill="#9fb0c2" font-size="10" font-weight="600">RESET</text>
+<rect x="429.34000000000003" y="154.95000000000002" width="69.29999999999998" height="202.85999999999999" rx="3" fill="#0b2e1f" stroke="#333c46"/>
+<text x="463.99" y="260.38" text-anchor="middle" fill="#9fb0c2" font-size="10" font-weight="600"></text>
+<rect x="40.14" y="373.35" width="45.919999999999995" height="54.59999999999998" rx="3" fill="#0b2e1f" stroke="#333c46"/>
+<text x="63.1" y="404.65000000000003" text-anchor="middle" fill="#9fb0c2" font-size="10" font-weight="600"></text>
+<circle cx="254.55" cy="127.65" r="21.0" fill="#11151b" stroke="#c9a23a" stroke-width="2"/><circle cx="254.55" cy="127.65" r="4.8999999999999995" fill="#c9a23a"/>
+<text x="279.75" y="131.65" fill="#e7edf5" font-size="11" font-weight="600">SMA antenne (J3)</text>
+<text x="279.75" y="144.65" fill="#8fa3b8" font-size="10">433 et 868 par le diplexeur</text>
+<circle cx="234.6" cy="222.15" r="10.5" fill="#11151b" stroke="#c9a23a"/>
+<circle cx="276.6" cy="222.15" r="10.5" fill="#11151b" stroke="#c9a23a"/>
+<text x="255.6" y="195.55" text-anchor="middle" fill="#8fa3b8" font-size="9">J5, J6 : commutateurs de test</text>
+<circle cx="494.58000000000004" cy="430.18999999999994" r="5" fill="#2ec16b"/><text x="485.58000000000004" y="434.18999999999994" text-anchor="end" fill="#8fa3b8" font-size="10">LED</text>
+<rect x="451.1" y="190.15" width="8" height="8" fill="#c9a23a"/>
+<circle cx="472.88" cy="194.15" r="4" fill="#c9a23a"/>
+<circle cx="455.1" cy="211.93" r="4" fill="#c9a23a"/>
+<circle cx="472.88" cy="211.93" r="4" fill="#c9a23a"/>
+<circle cx="455.1" cy="229.71" r="4" fill="#c9a23a"/>
+<circle cx="472.88" cy="229.71" r="4" fill="#c9a23a"/>
+<circle cx="455.1" cy="247.49" r="4" fill="#c9a23a"/>
+<circle cx="472.88" cy="247.49" r="4" fill="#c9a23a"/>
+<circle cx="455.1" cy="265.27" r="4" fill="#c9a23a"/>
+<circle cx="472.88" cy="265.27" r="4" fill="#c9a23a"/>
+<circle cx="455.1" cy="283.05" r="4" fill="#c9a23a"/>
+<circle cx="472.88" cy="283.05" r="4" fill="#c9a23a"/>
+<circle cx="455.1" cy="300.83000000000004" r="4" fill="#c9a23a"/>
+<circle cx="472.88" cy="300.83000000000004" r="4" fill="#c9a23a"/>
+<circle cx="455.1" cy="318.61" r="4" fill="#c9a23a"/>
+<circle cx="472.88" cy="318.61" r="4" fill="#c9a23a"/>
+<rect x="73.1" y="386.15" width="8" height="8" fill="#c9a23a"/>
+<circle cx="77.1" cy="397.15" r="4" fill="#c9a23a"/>
+<circle cx="77.1" cy="404.15" r="4" fill="#c9a23a"/>
+<circle cx="77.1" cy="411.15" r="4" fill="#c9a23a"/>
+<text x="423.34000000000003" y="166.95000000000002" text-anchor="end" fill="#e7edf5" font-size="11" font-weight="600">mikroBUS J2</text>
+<text x="92.06" y="423.95000000000005" fill="#e7edf5" font-size="11" font-weight="600">Qwiic J4</text>
+<text x="40.0" y="504.18999999999994" fill="#6f8296" font-size="10">67,4 × 55,3 mm, quatre trous M3. Le carré marque la broche 1.</text>
+<text x="850.0" y="82" text-anchor="middle" fill="#e7edf5" font-size="13" font-weight="700">mikroBUS J2, 2×8, vu de dessus</text>
+<rect x="808" y="94" width="84" height="222" rx="4" fill="#0b2e1f" stroke="#2f9c68"/>
+<rect x="824" y="104" width="12" height="12" fill="#c9a23a"/>
+<text x="830" y="101" text-anchor="middle" fill="#6f8296" font-size="7">1</text>
+<text x="800" y="114" text-anchor="end" fill="#e7edf5" font-size="12" font-weight="600">AN</text>
+<text x="776.8" y="114" text-anchor="end" fill="#8fa3b8" font-size="11">GPIO 8</text>
+<circle cx="870" cy="110" r="6" fill="#c9a23a"/>
+<text x="870" y="101" text-anchor="middle" fill="#6f8296" font-size="7">2</text>
+<text x="900" y="114" fill="#e7edf5" font-size="12" font-weight="600">PWM</text>
+<text x="930.8" y="114" fill="#8fa3b8" font-size="11">GPIO 38</text>
+<circle cx="830" cy="137" r="6" fill="#c9a23a"/>
+<text x="830" y="128" text-anchor="middle" fill="#6f8296" font-size="7">3</text>
+<text x="800" y="141" text-anchor="end" fill="#e7edf5" font-size="12" font-weight="600">RST</text>
+<text x="769.2" y="141" text-anchor="end" fill="#8fa3b8" font-size="11">GPIO 40</text>
+<circle cx="870" cy="137" r="6" fill="#c9a23a"/>
+<text x="870" y="128" text-anchor="middle" fill="#6f8296" font-size="7">4</text>
+<text x="900" y="141" fill="#e7edf5" font-size="12" font-weight="600">INT</text>
+<text x="930.8" y="141" fill="#8fa3b8" font-size="11">GPIO 39</text>
+<circle cx="830" cy="164" r="6" fill="#c9a23a"/>
+<text x="830" y="155" text-anchor="middle" fill="#6f8296" font-size="7">5</text>
+<text x="800" y="168" text-anchor="end" fill="#e7edf5" font-size="12" font-weight="600">CS</text>
+<text x="776.8" y="168" text-anchor="end" fill="#8fa3b8" font-size="11">GPIO 34</text>
+<circle cx="870" cy="164" r="6" fill="#c9a23a"/>
+<text x="870" y="155" text-anchor="middle" fill="#6f8296" font-size="7">6</text>
+<text x="900" y="168" fill="#e7edf5" font-size="12" font-weight="600">RX</text>
+<text x="923.2" y="168" fill="#8fa3b8" font-size="11">GPIO 18</text>
+<circle cx="830" cy="191" r="6" fill="#c9a23a"/>
+<text x="830" y="182" text-anchor="middle" fill="#6f8296" font-size="7">7</text>
+<text x="800" y="195" text-anchor="end" fill="#e7edf5" font-size="12" font-weight="600">SCK</text>
+<text x="769.2" y="195" text-anchor="end" fill="#8fa3b8" font-size="11">GPIO 36</text>
+<circle cx="870" cy="191" r="6" fill="#c9a23a"/>
+<text x="870" y="182" text-anchor="middle" fill="#6f8296" font-size="7">8</text>
+<text x="900" y="195" fill="#e7edf5" font-size="12" font-weight="600">TX</text>
+<text x="923.2" y="195" fill="#8fa3b8" font-size="11">GPIO 17</text>
+<circle cx="830" cy="218" r="6" fill="#c9a23a"/>
+<text x="830" y="209" text-anchor="middle" fill="#6f8296" font-size="7">9</text>
+<text x="800" y="222" text-anchor="end" fill="#e7edf5" font-size="12" font-weight="600">MISO</text>
+<text x="761.6" y="222" text-anchor="end" fill="#8fa3b8" font-size="11">GPIO 37</text>
+<circle cx="870" cy="218" r="6" fill="#c9a23a"/>
+<text x="870" y="209" text-anchor="middle" fill="#6f8296" font-size="7">10</text>
+<text x="900" y="222" fill="#7cc7ff" font-size="12" font-weight="600">SCL</text>
+<text x="930.8" y="222" fill="#8fa3b8" font-size="11">GPIO 13</text>
+<circle cx="830" cy="245" r="6" fill="#c9a23a"/>
+<text x="830" y="236" text-anchor="middle" fill="#6f8296" font-size="7">11</text>
+<text x="800" y="249" text-anchor="end" fill="#e7edf5" font-size="12" font-weight="600">MOSI</text>
+<text x="761.6" y="249" text-anchor="end" fill="#8fa3b8" font-size="11">GPIO 35</text>
+<circle cx="870" cy="245" r="6" fill="#c9a23a"/>
+<text x="870" y="236" text-anchor="middle" fill="#6f8296" font-size="7">12</text>
+<text x="900" y="249" fill="#7cc7ff" font-size="12" font-weight="600">SDA</text>
+<text x="930.8" y="249" fill="#8fa3b8" font-size="11">GPIO 12</text>
+<circle cx="830" cy="272" r="6" fill="#c9a23a"/>
+<text x="830" y="263" text-anchor="middle" fill="#6f8296" font-size="7">13</text>
+<text x="800" y="276" text-anchor="end" fill="#ff7a59" font-size="12" font-weight="600">3,3 V</text>
+<circle cx="870" cy="272" r="6" fill="#c9a23a"/>
+<text x="870" y="263" text-anchor="middle" fill="#6f8296" font-size="7">14</text>
+<text x="900" y="276" fill="#e23b3b" font-size="12" font-weight="600">5 V</text>
+<circle cx="830" cy="299" r="6" fill="#c9a23a"/>
+<text x="830" y="290" text-anchor="middle" fill="#6f8296" font-size="7">15</text>
+<text x="800" y="303" text-anchor="end" fill="#8fa3b8" font-size="12" font-weight="600">GND</text>
+<circle cx="870" cy="299" r="6" fill="#c9a23a"/>
+<text x="870" y="290" text-anchor="middle" fill="#6f8296" font-size="7">16</text>
+<text x="900" y="303" fill="#8fa3b8" font-size="12" font-weight="600">GND</text>
+<text x="814" y="372" fill="#e7edf5" font-size="13" font-weight="700">Qwiic J4, JST-SH, de haut en bas</text>
+<rect x="814" y="382" width="32" height="109" rx="4" fill="#0b2e1f" stroke="#2f9c68"/>
+<rect x="824" y="390" width="12" height="12" fill="#c9a23a"/>
+<text x="860" y="400" fill="#8fa3b8" font-size="12" font-weight="600">GND</text>
+<circle cx="830" cy="423" r="6" fill="#c9a23a"/>
+<text x="860" y="427" fill="#ff7a59" font-size="12" font-weight="600">3,3 V</text>
+<circle cx="830" cy="450" r="6" fill="#c9a23a"/>
+<text x="860" y="454" fill="#7cc7ff" font-size="12" font-weight="600">SDA</text>
+<text x="890.8" y="454" fill="#8fa3b8" font-size="11">GPIO 12</text>
+<circle cx="830" cy="477" r="6" fill="#c9a23a"/>
+<text x="860" y="481" fill="#7cc7ff" font-size="12" font-weight="600">SCL</text>
+<text x="890.8" y="481" fill="#8fa3b8" font-size="11">GPIO 13</text>
+<text x="680" y="520" fill="#8fa3b8" font-size="10">3,3 V et 5 V : limités en courant par un SGM2553 chacun</text>
+<text x="680" y="536" fill="#8fa3b8" font-size="10">SDA et SCL sont communs au Qwiic et au mikroBUS</text>
+</svg>

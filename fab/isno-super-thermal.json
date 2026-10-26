@@ -1,0 +1,181 @@
+{
+  "gate": "GREEN",
+  "board": "super-qwiic",
+  "ldo": "AP2114H SOT-223",
+  "assumptions": {
+    "ambient_C": 40.0,
+    "theta_effective_C_W": 100.0,
+    "tj_max_C": 150.0,
+    "minimum_margin_C": 30.0,
+    "qwiic_limit_mA": 50,
+    "theta_basis": "AP2114 SOT-223 53 C/W (1in2) derated to 85 C/W for ~110mm2 dual-layer pour + 15 C/W enclosure = 100 C/W",
+    "required_local_thermal_vias": 6,
+    "thermal_vias_found": 22,
+    "front_3v3_pour": true,
+    "rear_3v3_pour": true
+  },
+  "thermal_vias": [
+    [
+      10.9,
+      43.8
+    ],
+    [
+      16.3,
+      44.7
+    ],
+    [
+      13.015,
+      42.095
+    ],
+    [
+      10.9,
+      42.9
+    ],
+    [
+      16.3,
+      42.0
+    ],
+    [
+      15.4,
+      44.7
+    ],
+    [
+      14.135,
+      43.095
+    ],
+    [
+      15.4,
+      43.8
+    ],
+    [
+      16.3,
+      43.8
+    ],
+    [
+      14.135,
+      44.095
+    ],
+    [
+      13.015,
+      44.095
+    ],
+    [
+      11.8,
+      42.9
+    ],
+    [
+      14.135,
+      42.095
+    ],
+    [
+      11.8,
+      42.0
+    ],
+    [
+      11.8,
+      44.7
+    ],
+    [
+      11.8,
+      43.8
+    ],
+    [
+      15.4,
+      42.0
+    ],
+    [
+      10.9,
+      42.0
+    ],
+    [
+      16.3,
+      42.9
+    ],
+    [
+      10.9,
+      44.7
+    ],
+    [
+      13.015,
+      43.095
+    ],
+    [
+      15.4,
+      42.9
+    ]
+  ],
+  "scenarios": [
+    {
+      "scenario": "idle",
+      "current_3v3_A": 0.13,
+      "u3_power_W": 0.221,
+      "tj_est_C": 62.1,
+      "tj_margin_C": 87.9,
+      "ldo_current_margin_A": 0.87,
+      "pass": true
+    },
+    {
+      "scenario": "wifi_active",
+      "current_3v3_A": 0.26,
+      "u3_power_W": 0.442,
+      "tj_est_C": 84.2,
+      "tj_margin_C": 65.8,
+      "ldo_current_margin_A": 0.74,
+      "pass": true
+    },
+    {
+      "scenario": "wifi_tx",
+      "current_3v3_A": 0.365,
+      "u3_power_W": 0.621,
+      "tj_est_C": 102.1,
+      "tj_margin_C": 47.9,
+      "ldo_current_margin_A": 0.635,
+      "pass": true
+    },
+    {
+      "scenario": "radio_tx_868",
+      "current_3v3_A": 0.165,
+      "u3_power_W": 0.281,
+      "tj_est_C": 68.1,
+      "tj_margin_C": 81.9,
+      "ldo_current_margin_A": 0.835,
+      "pass": true
+    },
+    {
+      "scenario": "radio_tx_433",
+      "current_3v3_A": 0.165,
+      "u3_power_W": 0.281,
+      "tj_est_C": 68.1,
+      "tj_margin_C": 81.9,
+      "ldo_current_margin_A": 0.835,
+      "pass": true
+    },
+    {
+      "scenario": "wifi_tx_radio_tx",
+      "current_3v3_A": 0.405,
+      "u3_power_W": 0.689,
+      "tj_est_C": 108.9,
+      "tj_margin_C": 41.1,
+      "ldo_current_margin_A": 0.595,
+      "pass": true
+    },
+    {
+      "scenario": "qwiic_50mA",
+      "current_3v3_A": 0.18,
+      "u3_power_W": 0.306,
+      "tj_est_C": 70.6,
+      "tj_margin_C": 79.4,
+      "ldo_current_margin_A": 0.82,
+      "pass": true
+    },
+    {
+      "scenario": "worst_allowed",
+      "current_3v3_A": 0.455,
+      "u3_power_W": 0.774,
+      "tj_est_C": 117.4,
+      "tj_margin_C": 32.6,
+      "ldo_current_margin_A": 0.545,
+      "pass": true
+    }
+  ]
+}

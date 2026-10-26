@@ -1,0 +1,25 @@
+#VRML V2.0 utf8
+# EBYTE E07-900M10S CC1101 module - 2-tone approximation (green PCB base + metal shield can).
+# 20 x 14 mm, ~3.2 mm tall. Authored in mm; scale 0.3937 in .kicad_mod (KiCad VRML *2.54).
+# --- green PCB base (0 .. 0.9 mm) ---
+Shape {
+  appearance Appearance { material Material { diffuseColor 0.10 0.26 0.13 specularColor 0.1 0.1 0.1 shininess 0.2 } }
+  geometry IndexedFaceSet {
+    solid FALSE
+    coord Coordinate { point [
+      -19 -14 0,  1 -14 0,  1 0 0,  -19 0 0,
+      -19 -14 0.9, 1 -14 0.9, 1 0 0.9, -19 0 0.9 ] }
+    coordIndex [ 0 1 2 3 -1  7 6 5 4 -1  0 4 5 1 -1  1 5 6 2 -1  2 6 7 3 -1  3 7 4 0 -1 ]
+  }
+}
+# --- metal shield can (0.9 .. 3.2 mm), slightly inset from the PCB edge ---
+Shape {
+  appearance Appearance { material Material { diffuseColor 0.60 0.62 0.65 specularColor 0.9 0.9 0.9 shininess 0.75 } }
+  geometry IndexedFaceSet {
+    solid FALSE
+    coord Coordinate { point [
+      -18.5 -13.5 0.9,  0.5 -13.5 0.9,  0.5 -0.5 0.9,  -18.5 -0.5 0.9,
+      -18.5 -13.5 3.2,  0.5 -13.5 3.2,  0.5 -0.5 3.2,  -18.5 -0.5 3.2 ] }
+    coordIndex [ 0 1 2 3 -1  7 6 5 4 -1  0 4 5 1 -1  1 5 6 2 -1  2 6 7 3 -1  3 7 4 0 -1 ]
+  }
+}

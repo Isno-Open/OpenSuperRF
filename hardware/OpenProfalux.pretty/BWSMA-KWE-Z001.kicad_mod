@@ -1,0 +1,36 @@
+(footprint "BWSMA-KWE-Z001"
+	(version 20240108)
+	(generator "isno")
+	(layer "F.Cu")
+	(descr "BAT WIRELESS BWSMA-KWE-Z001 SMA female RIGHT-ANGLE (angled) THT jack. Barrel exits horizontally off board edge toward -Y (side exit). PCB LAYOUT PER DATASHEET: 5 holes of drill 1.4mm at 5.1x5.1 square (2.55 offsets). The 0.9 figures are the PART pins (center pin dia 0.9, 4 GND square 0.9), NOT the drills: a 0.9 square pin has a 1.27mm diagonal and does not fit a 0.9 hole. Body 14.5x13x6mm. LCSC C496551.")
+	(tags "SMA THT female right-angle angled edge jack BAT")
+	(attr through_hole)
+	(property "Reference" "REF**" (at 0 4.6 0) (layer "F.SilkS") (effects (font (size 1 1) (thickness 0.15))))
+	(property "Value" "BWSMA-KWE-Z001" (at 0 6.2 0) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+	(property "Footprint" "" (at 0 0 0) (layer "F.Fab") (hide yes))
+	(property "Datasheet" "" (at 0 0 0) (layer "F.Fab") (hide yes))
+	(property "Description" "" (at 0 0 0) (layer "F.Fab") (hide yes))
+	
+	
+	
+	
+	
+	
+	
+	(fp_line (start -3.2 -3.2) (end 3.2 -3.2) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(fp_line (start -3.2 3.2) (end 3.2 3.2) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(fp_line (start -3.2 -3.2) (end -3.2 3.2) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(fp_line (start 3.2 -3.2) (end 3.2 3.2) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(fp_text user "${REFERENCE}" (at 0 0 0) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+	(pad "1" thru_hole circle (at 0 0) (size 2.0 2.0) (drill 1.4) (layers "*.Cu" "*.Mask"))
+	(pad "2" thru_hole circle (at -2.55 -2.55) (size 1.8 1.8) (drill 1.4)
+			(solder_mask_margin 0.05) (layers "*.Cu" "*.Mask"))
+	(pad "2" thru_hole circle (at 2.55 -2.55) (size 1.8 1.8) (drill 1.4)
+			(solder_mask_margin 0.05) (layers "*.Cu" "*.Mask"))
+	(pad "2" thru_hole circle (at -2.55 2.55) (size 1.8 1.8) (drill 1.4)
+			(solder_mask_margin 0.05) (layers "*.Cu" "*.Mask"))
+	(pad "2" thru_hole circle (at 2.55 2.55) (size 1.8 1.8) (drill 1.4)
+			(solder_mask_margin 0.05) (layers "*.Cu" "*.Mask"))
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Molex_73251-2200_Horizontal.step"
+		(offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+)
