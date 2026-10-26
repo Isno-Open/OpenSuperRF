@@ -13,6 +13,8 @@ published here as open hardware. The board sold as a pre-order is the **v1.1**, 
 
 ![The ISNO Super EVT board, bare on the left and mounted in its printed enclosure on the right](images/isno-super-evt-montage.webp)
 
+> ⚠️ **Open points (v1.0 EVT).** This prototype has known open points, including a **J2 mikroBUS pinout that is destructive with a straight IDC cable**. Read [`KNOWN_ISSUES.md`](KNOWN_ISSUES.md) before building.
+
 ## What it is
 
 ![The ISNO Super EVT, each function labelled: SMA edge connector, ESP32-S3, the two 433 and 868 radios, mikroBUS, Qwiic, USB-C, BOOT and RESET](images/isno-super-evt-annotee.webp)

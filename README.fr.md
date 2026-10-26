@@ -13,6 +13,8 @@ hardware. La carte vendue en précommande est la **v1.1**, une évolution (voir
 
 ![La carte ISNO Super EVT, nue à gauche et montée dans son boîtier imprimé à droite](images/isno-super-evt-montage.webp)
 
+> ⚠️ **Points ouverts (v1.0 EVT).** Ce prototype a des points ouverts connus, dont un **brochage J2 mikroBUS destructeur avec un cordon IDC droit** (c'est l'adaptateur mikroBUS qui croise le brochage et évite le piège). À lire avant de fabriquer : [`KNOWN_ISSUES.md`](KNOWN_ISSUES.md).
+
 ## Ce que c'est
 
 ![La carte ISNO Super EVT, chaque fonction repérée : embase SMA, ESP32-S3, les deux radios 433 et 868, le mikroBUS, le Qwiic, l'USB-C, BOOT et RESET](images/isno-super-evt-annotee.webp)
