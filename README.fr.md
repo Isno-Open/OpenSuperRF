@@ -54,8 +54,6 @@ Le schéma complet est dans [`docs/isno-super-v1.0-schematic.pdf`](docs/isno-sup
 
 ## Boîtier
 
-![Rendu 3D du boîtier imprimé de la Super](images/boitier-super.png)
-
 Un boîtier imprimable en 3D est fourni dans [`enclosures/`](enclosures/) (`boitier_super.stl`). La carte
 rentre aussi dans des boîtiers rail DIN et IP65.
 

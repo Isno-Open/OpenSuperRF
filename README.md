@@ -53,8 +53,6 @@ The full schematic is in [`docs/isno-super-v1.0-schematic.pdf`](docs/isno-super-
 
 ## Enclosure
 
-![3D render of the Super printed enclosure](images/boitier-super.png)
-
 A 3D-printable enclosure is provided in [`enclosures/`](enclosures/) (`boitier_super.stl`). The board
 also fits DIN-rail and IP65 enclosures.
 
